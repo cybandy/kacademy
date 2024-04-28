@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": "./"
+        }
+    ],
+    "settings": {
+        "nuxtr.monorepoMode.DirectoryName": "./frontend",
+        "nuxtr.projectTemplates": [],
+        "nuxtr.vueFiles.style.addStyleTag": false,
+        "cSpell.words": [
+            "kacademy",
+            "persistedstate",
+            "pinia"
+        ]
+    }
+}
