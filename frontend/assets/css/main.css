@@ -9,4 +9,10 @@
   .section{
     @apply py-[120px] sm:py-[90px] 
   }
+  .cy-gradient-bg{
+    @apply bg-gradient-to-tr from-violet-500 to-purple-500 from-20% to-70%
+  }
+  .cy-gradient-text{
+    @apply bg-gradient-to-tr from-violet-500 to-purple-500 bg-clip-text text-transparent from-20% to-6 0%
+  }
 }

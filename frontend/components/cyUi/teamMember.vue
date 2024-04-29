@@ -20,9 +20,8 @@ const socials = ['face']
 </script>
 
 <template>
-  <div class="w-[150px] h-fit flex flex-col gap-4 items-center">
-    <NuxtImg :src="img" crossorigin="anonymous" fit="cover" format="webp"
-      class="w-[150px] aspect-square rounded-full" />
+  <div class="w-fit p-4 h-fit flex flex-col gap-4 items-center shadow-md">
+    <NuxtImg :src="img" crossorigin="anonymous" format="webp" class="w-[150px] aspect-square rounded-full shadow-sm" />
     <span class="text-base font-medium">{{ name }}</span>
     <div class="flex items-center gap-5 px-3">
       <template v-for="item of icons">

@@ -39,7 +39,9 @@
             "persistedstate",
             "pexels",
             "pinia",
-            "Slideover"
+            "Slideover",
+            "weserv",
+            "xtics"
         ]
     }
 }

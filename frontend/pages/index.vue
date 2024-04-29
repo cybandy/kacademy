@@ -1,6 +1,8 @@
 <template>
   <div>
-    <CyUiTeamMember name="Anne Richards" img="https://images.unsplash.com/photo-1544717305-2782549b5136" />
+    <UContainer class="bg-purple-50">
+      <TemplateHomeHero />
+    </UContainer>
   </div>
 </template>
 

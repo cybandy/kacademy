@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     },
   },
   ui: {
-
+    global: true
   },
   colorMode: {
     preference: 'light',
@@ -43,9 +43,16 @@ export default defineNuxtConfig({
   },
   image: {
     quality: 90,
+    inject: true,
     format: ['webp', 'avif', 'png', 'jpg'],
     domains: [
       'images.unsplash.com', 'images.pexels.com'
-    ]
+    ],
+    weserv: {
+      baseURL: process.env.BASE_URL
+    }
+  },
+  lodash: {
+    prefix: "_"
   }
 })

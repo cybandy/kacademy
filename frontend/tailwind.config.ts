@@ -22,10 +22,10 @@ module.exports = {
         DmSans: ['DM Sans'],
       },
       screens: {
-        xs: '576px',
+        xs: '460px',
       },
 
     },
   },
-  plugins: [],
+  // plugins: [],
 }
