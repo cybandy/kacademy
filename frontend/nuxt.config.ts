@@ -41,4 +41,11 @@ export default defineNuxtConfig({
       },
     ],
   },
+  image: {
+    quality: 90,
+    format: ['webp', 'avif', 'png', 'jpg'],
+    domains: [
+      'images.unsplash.com', 'images.pexels.com'
+    ]
+  }
 })
