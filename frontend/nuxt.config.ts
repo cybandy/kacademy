@@ -22,6 +22,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxt/eslint',
+    '@vueuse/nuxt'
   ],
   eslint: {
     config: {

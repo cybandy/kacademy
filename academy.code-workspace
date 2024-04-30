@@ -1,7 +1,7 @@
 {
     "folders": [
         {
-            "path": "./"
+            "path": "./",
         }
     ],
     "settings": {
@@ -14,23 +14,23 @@
         "editor.quickSuggestions": {
             "strings": true
         },
-        "tailwindCSS.experimental.classRegex": [
-            [
-                "ui:\\s*{([^)]*)\\s*}",
-                "[\"'`]([^\"'`]*).*?[\"'`]"
-            ],
-            [
-                "/\\*\\s?ui\\s?\\*/\\s*{([^;]*)}",
-                ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"
-            ]
-        ],
-        "tailwindCSS.classAttributes": [
-            "class",
-            "className",
-            "ngClass",
-            "ui"
-        ],
-        "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+        // "tailwindCSS.experimental.classRegex": [
+        //     [
+        //         "ui:\\s*{([^)]*)\\s*}",
+        //         "[\"'`]([^\"'`]*).*?[\"'`]"
+        //     ],
+        //     [
+        //         "/\\*\\s?ui\\s?\\*/\\s*{([^;]*)}",
+        //         ":\\s*[\"'`]([^\"'`]*).*?[\"'`]"
+        //     ]
+        // ],
+        // "tailwindCSS.classAttributes": [
+        //     "class",
+        //     "className",
+        //     "ngClass",
+        //     "ui"
+        // ],
+        // "tailwindCSS.experimental.configFile": "tailwind.config.ts",
         "cSpell.words": [
             "Cacchi",
             "devicon",
@@ -40,8 +40,11 @@
             "pexels",
             "pinia",
             "Slideover",
+            "vueuse",
             "weserv",
-            "xtics"
+            "xtics",
+            "nuxtr",
+            "tailwindcss"
         ]
     }
 }

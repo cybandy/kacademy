@@ -1,7 +1,13 @@
 <template>
   <div>
-    <UContainer class="bg-purple-50">
-      <TemplateHomeHero />
+    <div class="bg-purple-50">
+      <UContainer>
+        <TemplateHomeHero />
+      </UContainer>
+    </div>
+
+    <UContainer>
+      <CyUiSectionServicesOne />
     </UContainer>
   </div>
 </template>

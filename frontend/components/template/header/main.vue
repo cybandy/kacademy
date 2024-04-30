@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <UContainer>
+    <UContainer class="py-5">
       <TemplateHeaderDesktop class="hidden md:flex" />
       <TemplateHeaderMobile class="md:hidden" />
     </UContainer>
