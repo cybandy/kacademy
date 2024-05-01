@@ -9,6 +9,11 @@
     <UContainer>
       <CyUiSectionServicesOne />
     </UContainer>
+    <div class="bg-purple-50">
+      <UContainer>
+        <CyUiSectionTeachersOne />
+      </UContainer>
+    </div>
   </div>
 </template>
 

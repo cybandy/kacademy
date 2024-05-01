@@ -17,23 +17,23 @@ defineProps({
 const imgOptimizer = useImage()
 const avatars = [
     {
-        src: imgOptimizer("https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg", { format: 'webp', provider: "weserv" }),
+        src: imgOptimizer("https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=2", { format: 'webp', provider: "weserv" }),
         alt: "Kendra",
     },
     {
-        src: imgOptimizer("https://images.pexels.com/photos/773371/pexels-photo-773371.jpeg", { format: 'webp', provider: "weserv" }),
+        src: imgOptimizer("https://images.pexels.com/photos/773371/pexels-photo-773371.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=2", { format: 'webp', provider: "weserv" }),
         alt: "Antoinette",
     },
     {
-        src: imgOptimizer("https://images.unsplash.com/photo-1607990281513-2c110a25bd8c", { format: 'webp', provider: "weserv" }),
-        alt: "Antoinette",
+        src: imgOptimizer("https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?auto=compress&cs=tinysrgb&w=640&h=427&dpr=2", { format: 'webp', provider: "weserv" }),
+        alt: "Sam Raphael",
     },
     {
-        src: imgOptimizer("https://images.pexels.com/photos/227294/pexels-photo-227294.jpeg", { format: 'webp', provider: "weserv" }),
+        src: imgOptimizer("https://images.pexels.com/photos/227294/pexels-photo-227294.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=2", { format: 'webp', provider: "weserv" }),
         alt: "Jewel",
     },
     {
-        src: imgOptimizer("https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg", { format: 'webp', provider: "weserv" }),
+        src: imgOptimizer("https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=640&h=427&dpr=2", { format: 'webp', provider: "weserv" }),
         alt: "Kendra",
     },
     {
