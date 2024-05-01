@@ -2,16 +2,26 @@
   <div>
     <div class="bg-purple-50">
       <UContainer>
-        <TemplateHomeHero />
+        <TemplateSectionHeroHome />
       </UContainer>
     </div>
 
     <UContainer>
-      <CyUiSectionServicesOne />
+      <TemplateSectionServicesOne />
     </UContainer>
     <div class="bg-purple-50">
       <UContainer>
-        <CyUiSectionTeachersOne />
+        <TemplateSectionTeachersOne caption="Our Teachers" title="The Best of the best" />
+      </UContainer>
+    </div>
+
+    <UContainer>
+      <TemplateSectionTestimonyOne caption="Testimonies" title="What Parents Are Saying" />
+    </UContainer>
+
+    <div class="cy-gradient-bg">
+      <UContainer>
+        <TemplateSectionContactOne />
       </UContainer>
     </div>
   </div>

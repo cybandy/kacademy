@@ -20,7 +20,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="space-y-4">
+    <div class="space-y-4 shadow hover:shadow-lg">
         <UAvatar :src="img" size="sm" crossorigin="anonymous" />
         <div class="space-y-1">
             <span class="text-base font-medium text-primary-950">{{ name }}</span>

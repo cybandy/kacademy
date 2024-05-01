@@ -7,7 +7,7 @@
         <CyUiLogo />
         <div class="flex items-center gap-12">
             <CyUiMenu />
-            <UButton to="/get-started" label="Get Started" />
+            <UButton to="#" label="Get Started" />
         </div>
     </header>
 </template>

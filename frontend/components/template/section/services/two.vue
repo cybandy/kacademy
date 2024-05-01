@@ -18,7 +18,7 @@ defineProps({
     },
     to: {
         type: String,
-        default: '/get-started'
+        default: '#'
     },
     buttonLabel: {
         type: String,
