@@ -56,4 +56,9 @@ export default defineNuxtConfig({
   lodash: {
     prefix: '_',
   },
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false,
+    },
+  },
 })
