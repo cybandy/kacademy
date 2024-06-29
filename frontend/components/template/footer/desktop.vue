@@ -5,12 +5,12 @@ const menus = [
     show: {
       desktop: true,
       mobile: false,
-      tablet: true
+      tablet: true,
     },
     links: [
       {
         label: 'About Us',
-        to: '/about-us'
+        to: '/about-us',
       },
       {
         label: 'Terms & Condition',
@@ -24,14 +24,14 @@ const menus = [
         label: 'Blog',
         // to:'/about-us'
       },
-    ]
+    ],
   },
   {
     title: 'Features',
     show: {
       desktop: true,
       mobile: false,
-      tablet: false
+      tablet: false,
     },
     links: [
       {
@@ -50,14 +50,14 @@ const menus = [
         label: 'Live class',
         // to:'/about-us'
       },
-    ]
+    ],
   },
   {
     title: 'Get In Touch',
     show: {
       desktop: true,
       mobile: true,
-      tablet: true
+      tablet: true,
     },
     links: [
       {
@@ -73,7 +73,7 @@ const menus = [
         // to:'/about-us'
       },
 
-    ]
+    ],
   },
 
 ]
@@ -88,12 +88,15 @@ const menus = [
       </p>
     </div>
 
-    <template v-for="item of menus">
-      <TemplateFooterMenu :title="item.title" :links="item.links"
-        :class="[!item.show.mobile && 'hidden sm:flex', !item.show.tablet && 'md:hidden lg:flex', !item.show.desktop && 'lg:hidden']" />
+    <template
+      v-for="(item, i) of menus"
+      :key="i"
+    >
+      <TemplateFooterMenu
+        :title="item.title"
+        :links="item.links"
+        :class="[!item.show.mobile && 'hidden sm:flex', !item.show.tablet && 'md:hidden lg:flex', !item.show.desktop && 'lg:hidden']"
+      />
     </template>
-
-
-
   </div>
 </template>

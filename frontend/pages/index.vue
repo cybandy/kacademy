@@ -11,12 +11,18 @@
     </UContainer>
     <div class="bg-purple-50">
       <UContainer>
-        <TemplateSectionTeachersOne caption="Our Teachers" title="The Best of the best" />
+        <TemplateSectionTeachersOne
+          caption="Our Teachers"
+          title="The Best of the best"
+        />
       </UContainer>
     </div>
 
     <UContainer>
-      <TemplateSectionTestimonyOne caption="Testimonies" title="What Parents Are Saying" />
+      <TemplateSectionTestimonyOne
+        caption="Testimonies"
+        title="What Parents Are Saying"
+      />
     </UContainer>
 
     <div class="cy-gradient-bg">

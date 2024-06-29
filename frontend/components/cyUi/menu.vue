@@ -2,36 +2,40 @@
 const props = defineProps({
   horizontal: {
     type: Boolean,
-    default: true
-  }
+    default: true,
+  },
 })
 const links = [
   {
     label: 'Home',
-    // to: '/' 
+    // to: '/'
 
   },
   {
     label: 'About Us',
-    // to: '/about-us' 
+    // to: '/about-us'
 
   },
   {
     label: 'Services',
-    // to: '/Services' 
+    // to: '/Services'
 
   },
   {
     label: 'Contact Us',
-    // to: '/Contact-Us' 
+    // to: '/Contact-Us'
 
   },
 ]
-
-
 </script>
 
 <template>
-  <UHorizontalNavigation v-if="horizontal" :links="links" />
-  <UVerticalNavigation v-else :links="links" />
+  <UHorizontalNavigation
+    v-if="horizontal"
+    :links="links"
+  />
+  <UVerticalNavigation
+    v-else
+    :links="links"
+  />
 </template>

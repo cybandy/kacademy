@@ -6,7 +6,7 @@ export default defineAppConfig({
       dynamic: true,
     },
     button: {
-      rounded: 'rounded-none'
-    }
+      rounded: 'rounded-none',
+    },
   },
 })
