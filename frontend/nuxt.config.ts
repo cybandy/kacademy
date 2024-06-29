@@ -22,7 +22,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     '@nuxt/eslint',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
   ],
   eslint: {
     config: {
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     },
   },
   ui: {
-    global: true
+    global: true,
   },
   colorMode: {
     preference: 'light',
@@ -47,13 +47,13 @@ export default defineNuxtConfig({
     inject: true,
     format: ['webp', 'avif', 'png', 'jpg'],
     domains: [
-      'images.unsplash.com', 'images.pexels.com'
+      'images.unsplash.com', 'images.pexels.com',
     ],
     weserv: {
-      baseURL: process.env.BASE_URL
-    }
+      baseURL: process.env.BASE_URL,
+    },
   },
   lodash: {
-    prefix: "_"
-  }
+    prefix: '_',
+  },
 })
